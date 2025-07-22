@@ -1,0 +1,16 @@
+[flake8]
+exclude = 
+    migrations,
+    manage.py,
+    settings.py,
+    .git,
+    __pycache__,
+    node_modules,
+    venv,
+    .venv,
+    .env,
+    .env
+    .local,
+    .env.development,
+    .env.test,
+    .env.production

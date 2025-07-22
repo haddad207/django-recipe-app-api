@@ -1,12 +1,11 @@
 version: "3.9"
 
 services:
-  web:
+  app:
     build:
       context: .
       args:
         - DEV=true
-      dockerfile: Dockerfile
     ports:
       - "8000:8000"
     volumes:
